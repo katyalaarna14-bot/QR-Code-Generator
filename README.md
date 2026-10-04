@@ -8,8 +8,6 @@ QR Studio is a responsive QR code generator built with **React and Vite**. It al
 
 🔗 **Live Demo:** https://qr-code-generator-efmim9jx4-aarna6.vercel.app/
 
-💻 **GitHub Repository:** https://github.com/katyalaarna14-bot/QR-Code-Generator
-
 ---
 
 ## ✨ Features
@@ -60,48 +58,6 @@ Create QR codes for:
 * **CSS** – Styling and responsive design
 * **Vite** – Development and build tool
 * **QRCode.js** – QR code generation
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/katyalaarna14-bot/QR-Code-Generator.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd QR-Code-Generator
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL shown in the terminal.
-
----
-
-## 📦 Production Build
-
-To create an optimized production build:
-
-```bash
-npm run build
-```
-
-The production files are generated inside the `dist` folder.
 
 ---
 
