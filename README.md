@@ -1,16 +1,147 @@
-# React + Vite
+# ✨ QR Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**By Aarna Katyal**
 
-Currently, two official plugins are available:
+### Create. Customize. Share.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+QR Studio is a responsive QR code generator built with **React and Vite**. It allows users to create QR codes for different types of information, customize their appearance, and download or reuse them easily.
 
-## React Compiler
+🔗 **Live Demo:** https://qr-code-generator-efmim9jx4-aarna6.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💻 **GitHub Repository:** https://github.com/katyalaarna14-bot/QR-Code-Generator
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+### 📱 QR Code Generation
+
+Create QR codes for:
+
+* Website URLs
+* Plain Text
+* Email Addresses
+* Phone Numbers
+* Wi-Fi Details
+
+### 🎨 Customization
+
+* Adjustable QR code size
+* Custom foreground color
+* Custom background color
+* Adjustable error correction level
+* Adjustable margin
+* Quick visual presets
+
+  * Clean
+  * Midnight
+  * Soft Note
+
+### ⚡ Additional Features
+
+* Real-time QR preview
+* Download QR codes as PNG
+* Download QR codes as SVG
+* Copy QR content to clipboard
+* Scan-readiness warnings
+* Recent QR code history
+* Reuse previously created QR codes
+* Light and dark mode
+* Responsive desktop and mobile design
+* Input validation
+
+---
+
+## 🛠️ Tech Stack
+
+* **React** – Frontend framework
+* **JavaScript** – Application logic
+* **HTML** – Structure
+* **CSS** – Styling and responsive design
+* **Vite** – Development and build tool
+* **QRCode.js** – QR code generation
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/katyalaarna14-bot/QR-Code-Generator.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd QR-Code-Generator
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+---
+
+## 📦 Production Build
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+The production files are generated inside the `dist` folder.
+
+---
+
+## 🎯 Project Highlights
+
+QR Studio was designed to go beyond basic QR generation by combining **customization, usability, validation, and convenient QR management** in one interface.
+
+The live preview updates whenever the QR content or customization settings are changed.
+
+Scan-readiness warnings help users identify settings that may affect QR readability, such as very small margins or low contrast.
+
+The application also stores recently created QR codes using **local storage**, allowing users to reuse them even after refreshing the page.
+
+---
+
+## 📱 Responsive Design
+
+QR Studio is designed to work across different screen sizes, including:
+
+* 💻 Desktop
+* 📱 Mobile
+* 📟 Tablet
+
+The interface adapts to smaller screens while keeping the QR preview and controls accessible.
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using **Vercel**.
+
+🔗 **Live Application:**
+https://qr-code-generator-efmim9jx4-aarna6.vercel.app/
+
+---
+
+## 👩‍💻 Creator
+
+**Aarna Katyal**
+
+A frontend project built with React and Vite.
+
+**Designed & crafted by Aarna.**
